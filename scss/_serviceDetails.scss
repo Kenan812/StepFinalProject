@@ -1,0 +1,52 @@
+.page-content {
+    .content-left {
+        .available-service {
+            .service-item {
+                border-radius: 10px;
+                background-color: #f3f3f3;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+            }
+
+            .service-item:hover {
+                transition: all .3s;
+                background-color: white;
+                border: 1px solid $bg-theme-green;
+
+                a {
+                    transition: all .3s;
+                    color: $bg-theme-green;
+                }
+            }
+        }
+
+        .widget {
+            background-color: $bg-theme-green;
+            font-size: 24px;
+        }
+    }
+
+    .content-right {
+        p {
+            line-height: 30px;
+            font-size: 17px;
+            color: #4d4d4d;
+        }
+
+
+        ul {
+            li {
+                list-style-image: url("../img/icons/ok-x20.png");
+                padding-left: 10px;
+                font-size: 17px;
+                line-height: 38px;
+
+            }
+        }
+    }
+}

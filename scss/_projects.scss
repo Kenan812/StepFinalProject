@@ -1,0 +1,24 @@
+.all-projects {
+    .owl-carousel {
+        .item {
+            img {
+                width: 100%;
+            }
+
+            .reference {
+                .upper {
+                    color: $bg-theme-green;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    transition: all 0.5s;
+                    color: $bg-theme-green;
+                }
+            }
+        }
+    }
+}

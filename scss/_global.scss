@@ -1,0 +1,209 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=PT+Serif&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+header {
+    background-color: #f7f7ff;
+    font-family: 'Marcellus', serif;
+
+    .header-top {
+        background-color: $bg-theme-green;
+        color: white;
+        font-size: 17px;
+
+        ul {
+            text-decoration: none;
+            list-style: none;
+
+            li {
+                display: inline;
+
+                img {
+                    filter: brightness(0) invert(1);
+                }
+
+                .rotate270 {
+                    transform: rotate(270deg);
+                }
+
+                .hoverable:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .button {
+            background-color: #1c4244;
+            padding: 0px 30px;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #27243B;
+            transition: ease-in-out .3s;
+        }
+    }
+
+    .header-nav {
+        ul {
+            text-decoration: none;
+            list-style: none;
+
+            li {
+                display: inline;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+
+            li:hover {
+                background-color: $bg-theme-green;
+                transition: ease-in-out all .2s;
+                cursor: pointer;
+
+                .nav-link {
+                    color: white !important;
+                    transition: ease-in-out all .2s;
+                }
+            }
+
+            .nav-item {
+                font-weight: bold;
+                font-size: 17px;
+                border-radius: 50px;
+            }
+
+            .dropdown:hover .dropdown-menu {
+                display: block;
+                margin-top: 0;
+            }
+
+            .dropdown-item {
+                color: gray !important;
+            }
+
+            .dropdown-item:hover {
+                color: $bg-theme-green !important;
+                background-color: #EEEEEE;
+            }
+        }
+
+        .home {
+            background-color: $bg-theme-green;
+
+            a {
+                color: white;
+            }
+        }
+
+        .logo {
+            width: 88%;
+        }
+
+        .header-nav-icon {
+            cursor: pointer;
+            width: 26px;
+        }
+
+        .header-nav-icon:hover {
+            opacity: 40%;
+            transition: ease-in-out 0.1s;
+        }
+    }
+}
+
+footer {
+    background-color: #0F0F0F;
+    font-family: 'Marcellus', serif;
+    ;
+
+    h3 {
+        color: white;
+        font-size: 55px;
+
+        span {
+            color: $bg-theme-green;
+        }
+    }
+
+    form {
+        font-size: 19px;
+
+        input {
+            background-color: transparent;
+            color: #CFCFCF;
+            border: 0px;
+            outline: none;
+        }
+
+        button {
+            background-color: transparent;
+            color: $bg-theme-green;
+            border: 0px;
+        }
+
+        hr {
+            background-color: #CFCFCF;
+        }
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    p,
+    a {
+        color: #C2C2C2;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #C2C2C2;
+    }
+
+    .section-header {
+        color: #F2F2F2;
+        font-size: 22px;
+    }
+
+    ul {
+        list-style: none;
+    }
+}
+
+.section-name {
+    background-color: $bg-theme-green;
+    color: white;
+    background-image: url("https://kodesolution.com/html/2022/pixaa-html/images/bg/bg7.jpg");
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+
+    h2 {
+        font-weight: bold;
+        font-size: 50px;
+
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+section {
+    font-family: 'Marcellus', serif;
+}
+
+article {
+    font-family: 'Marcellus', serif;
+}

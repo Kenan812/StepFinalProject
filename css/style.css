@@ -1,0 +1,534 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=PT+Serif&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #f7f7ff;
+  font-family: 'Marcellus', serif;
+}
+
+header .header-top {
+  background-color: #4FAA89;
+  color: white;
+  font-size: 17px;
+}
+
+header .header-top ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+header .header-top ul li {
+  display: inline;
+}
+
+header .header-top ul li img {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+header .header-top ul li .rotate270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+header .header-top ul li .hoverable:hover {
+  cursor: pointer;
+}
+
+header .header-top .button {
+  background-color: #1c4244;
+  padding: 0px 30px;
+  border-radius: 5px;
+}
+
+header .header-top .button:hover {
+  background-color: #27243B;
+  -webkit-transition: ease-in-out .3s;
+  transition: ease-in-out .3s;
+}
+
+header .header-nav ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+header .header-nav ul li {
+  display: inline;
+}
+
+header .header-nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header .header-nav ul li:hover {
+  background-color: #4FAA89;
+  -webkit-transition: ease-in-out all .2s;
+  transition: ease-in-out all .2s;
+  cursor: pointer;
+}
+
+header .header-nav ul li:hover .nav-link {
+  color: white !important;
+  -webkit-transition: ease-in-out all .2s;
+  transition: ease-in-out all .2s;
+}
+
+header .header-nav ul .nav-item {
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 50px;
+}
+
+header .header-nav ul .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+header .header-nav ul .dropdown-item {
+  color: gray !important;
+}
+
+header .header-nav ul .dropdown-item:hover {
+  color: #4FAA89 !important;
+  background-color: #EEEEEE;
+}
+
+header .header-nav .home {
+  background-color: #4FAA89;
+}
+
+header .header-nav .home a {
+  color: white;
+}
+
+header .header-nav .logo {
+  width: 88%;
+}
+
+header .header-nav .header-nav-icon {
+  cursor: pointer;
+  width: 26px;
+}
+
+header .header-nav .header-nav-icon:hover {
+  opacity: 40%;
+  -webkit-transition: ease-in-out 0.1s;
+  transition: ease-in-out 0.1s;
+}
+
+footer {
+  background-color: #0F0F0F;
+  font-family: 'Marcellus', serif;
+}
+
+footer h3 {
+  color: white;
+  font-size: 55px;
+}
+
+footer h3 span {
+  color: #4FAA89;
+}
+
+footer form {
+  font-size: 19px;
+}
+
+footer form input {
+  background-color: transparent;
+  color: #CFCFCF;
+  border: 0px;
+  outline: none;
+}
+
+footer form button {
+  background-color: transparent;
+  color: #4FAA89;
+  border: 0px;
+}
+
+footer form hr {
+  background-color: #CFCFCF;
+}
+
+footer .logo {
+  width: 50%;
+}
+
+footer p,
+footer a {
+  color: #C2C2C2;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #C2C2C2;
+}
+
+footer .section-header {
+  color: #F2F2F2;
+  font-size: 22px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.section-name {
+  background-color: #4FAA89;
+  color: white;
+  background-image: url("https://kodesolution.com/html/2022/pixaa-html/images/bg/bg7.jpg");
+  position: relative;
+  overflow: hidden;
+  height: 350px;
+}
+
+.section-name h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.section-name p {
+  font-size: 20px;
+}
+
+section {
+  font-family: 'Marcellus', serif;
+}
+
+article {
+  font-family: 'Marcellus', serif;
+}
+
+.slider .owl-carousel .slider-content {
+  color: white;
+}
+
+.slider .owl-carousel .slider-content h2 {
+  font-size: 66px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-weight: bold;
+}
+
+.slider .owl-carousel .slider-content p {
+  font-size: 20px;
+}
+
+.slider .owl-carousel .slider-content a {
+  background-color: #4FAA89;
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  border-radius: 8px;
+}
+
+.service-section {
+  background-color: #f7f7ff;
+}
+
+.service-section .section-header h3 {
+  font-size: 44px;
+  font-weight: 100;
+}
+
+.service-section .section-header .header-name {
+  color: #4FAA89;
+}
+
+.service-section .section-header .section-header-info {
+  font-size: 14px;
+}
+
+.service-section .section-content .icon-box {
+  background-color: white;
+}
+
+.service-section .section-content .icon-box .icon-image {
+  width: 15%;
+}
+
+.service-section .section-content .icon-box .icon-content {
+  font-size: 18px;
+}
+
+.service-section .section-content .icon-box .icon-content a {
+  text-decoration: none;
+  color: black;
+}
+
+.service-section .section-content .icon-box .icon-content a:hover {
+  color: #4FAA89;
+}
+
+.service-section .section-content .icon-box:hover {
+  -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.04), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.04), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.service-section .section-content .icon-box:hover .icon-image {
+  overflow: hidden;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.info-article-1 .article-images .image-1 {
+  width: 43%;
+}
+
+.info-article-1 .article-images .image-2 {
+  width: 50%;
+}
+
+.info-article-1 .article-images .addition {
+  font-size: 14px;
+  background-color: #4FAA89;
+  color: white;
+  margin-top: -50px;
+  margin-left: 110px;
+}
+
+.info-article-1 .article-images .addition .highlight {
+  font-size: 17px;
+}
+
+.info-article-1 .article-content {
+  color: #717171;
+  font-size: 18px;
+}
+
+.info-article-1 .article-content h3 {
+  color: black !important;
+  font-size: 55px;
+}
+
+.info-article-1 .article-content .service-list .list-item {
+  list-style-image: url("../img/icons/ok-x20.png");
+}
+
+.info-article-1 .article-content .owner-info h4 {
+  color: #4FAA89;
+}
+
+.sposors .owl-carousel .item {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+.sposors .owl-carousel .item:hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  opacity: 1;
+}
+
+.general-info {
+  background-color: #4FAA89;
+  color: white;
+}
+
+.general-info h3 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.general-info p {
+  font-size: 19px;
+  font-weight: bolder;
+}
+
+.question-answer-section .section-body h3 {
+  font-size: 48px;
+  font-weight: 100;
+}
+
+.question-answer-section .section-body .header-name {
+  color: #4FAA89;
+}
+
+.question-answer-section .section-body .accordion .accordion-button {
+  font-size: 21px;
+}
+
+.question-answer-section .section-body .accordion .accordion-body {
+  font-size: 16px;
+}
+
+.question-answer-section .section-body .btn a {
+  background-color: #4FAA89;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.question-answer-section .section-body .btn a:hover {
+  background-color: #27243B;
+  -webkit-transition: ease-in-out .45s;
+  transition: ease-in-out .45s;
+  opacity: 0.8;
+}
+
+.question-answer-section .section-decor .section-image {
+  width: 83.8%;
+}
+
+.question-answer-section .section-decor .features .icon-box {
+  background-color: #4FAA89;
+}
+
+.question-answer-section .section-decor .features .icon-box a {
+  text-decoration: none;
+  cursor: default;
+  color: white;
+  font-size: 21px;
+}
+
+.expert-meeting .section-header .section-identifier {
+  color: #4FAA89;
+}
+
+.expert-meeting .section-header h3 {
+  font-size: 48px;
+  font-weight: 100;
+}
+
+.expert-meeting .owl-carousel .item {
+  background-size: 300px 300px;
+}
+
+.expert-meeting .owl-carousel .item img {
+  width: 170%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.expert-meeting .owl-carousel .item a {
+  text-decoration: none;
+  color: black;
+  overflow: hidden;
+}
+
+.expert-meeting .owl-carousel .item a h5 {
+  font-size: 20px;
+}
+
+.expert-meeting .owl-carousel .item a .personal-info {
+  border-radius: 10px;
+  background-color: white;
+  z-index: 1;
+  margin-top: -100px;
+  margin-left: 30px;
+  width: 145%;
+}
+
+.expert-meeting .owl-carousel .item .contact-info ul img {
+  width: 7%;
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.expert-meeting .owl-carousel .item:hover img {
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  opacity: 1;
+}
+
+.expert-meeting .owl-carousel .item:hover .personal-info {
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  background-color: #4FAA89;
+  color: white;
+}
+
+.info-article-2 .background-image img {
+  width: 140%;
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
+}
+
+.info-article-2 .owl-carousel {
+  color: white;
+  -webkit-filter: brightness(100%) !important;
+          filter: brightness(100%) !important;
+}
+
+.info-article-2 .owl-carousel .item img {
+  width: 12%;
+}
+
+.info-article-2 .owl-carousel .item h3 {
+  font-size: 40px;
+}
+
+.info-article-2 .consultation .consultation-info {
+  background-color: #4FAA89;
+  z-index: 100;
+  margin-top: 100px;
+  color: white;
+}
+
+.info-article-2 .consultation .consultation-info h3 {
+  font-size: 60px;
+}
+
+.info-article-2 .consultation .consultation-info img {
+  width: 24%;
+  height: 10%;
+}
+
+.info-article-2 .consultation .consultation-info .phone {
+  font-size: 20px;
+}
+
+.case-studies-section .section-header .header {
+  color: #4FAA89;
+}
+
+.case-studies-section .section-header h2 {
+  font-size: 60px;
+}
+
+.case-studies-section .section-content .owl-carousel .item .item-info {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.case-studies-section .section-content .owl-carousel .item .item-info .item-info-header {
+  font-size: 27px;
+  text-decoration: none;
+  color: black;
+}
+
+.case-studies-section .section-content .owl-carousel .item:hover .item-info {
+  background-color: #4FAA89;
+  color: white;
+  -webkit-transform: translateY(-45px);
+          transform: translateY(-45px);
+}
+
+.case-studies-section .section-content .owl-carousel .item:hover .item-info a {
+  color: white;
+}
+
+.case-studies-section .section-content .owl-carousel .item:hover .item-info a:hover {
+  color: black;
+}
